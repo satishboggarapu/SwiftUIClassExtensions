@@ -14,6 +14,14 @@
 		10DA456D2138431A00B7A3E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DA456B2138431A00B7A3E4 /* LaunchScreen.storyboard */; };
 		10DA45782138431A00B7A3E4 /* SwiftExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA45772138431A00B7A3E4 /* SwiftExtensionsTests.swift */; };
 		10DA45832138431A00B7A3E4 /* SwiftExtensionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA45822138431A00B7A3E4 /* SwiftExtensionsUITests.swift */; };
+		10DA45922138438D00B7A3E4 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA45912138438D00B7A3E4 /* DateExtensions.swift */; };
+		10DA4594213843A200B7A3E4 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA4593213843A200B7A3E4 /* StringExtensions.swift */; };
+		10DA4596213843B100B7A3E4 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA4595213843B100B7A3E4 /* UIButtonExtensions.swift */; };
+		10DA4599213843DC00B7A3E4 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA4597213843DB00B7A3E4 /* UIColorExtensions.swift */; };
+		10DA459A213843DC00B7A3E4 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA4598213843DB00B7A3E4 /* UIImageExtensions.swift */; };
+		10DA459C213843F400B7A3E4 /* UIViewBorderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA459B213843F400B7A3E4 /* UIViewBorderExtension.swift */; };
+		10DA459E2138440800B7A3E4 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA459D2138440800B7A3E4 /* UIViewControllerExtensions.swift */; };
+		10DA45A02138441B00B7A3E4 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA459F2138441B00B7A3E4 /* UIViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		10DA457E2138431A00B7A3E4 /* SwiftExtensionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExtensionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DA45822138431A00B7A3E4 /* SwiftExtensionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensionsUITests.swift; sourceTree = "<group>"; };
 		10DA45842138431A00B7A3E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DA45912138438D00B7A3E4 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		10DA4593213843A200B7A3E4 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		10DA4595213843B100B7A3E4 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		10DA4597213843DB00B7A3E4 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		10DA4598213843DB00B7A3E4 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		10DA459B213843F400B7A3E4 /* UIViewBorderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewBorderExtension.swift; sourceTree = "<group>"; };
+		10DA459D2138440800B7A3E4 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		10DA459F2138441B00B7A3E4 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,7 @@
 		10DA45612138431800B7A3E4 /* SwiftExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				10DA45902138432D00B7A3E4 /* Extensions */,
 				10DA45622138431800B7A3E4 /* AppDelegate.swift */,
 				10DA45642138431800B7A3E4 /* ViewController.swift */,
 				10DA45662138431800B7A3E4 /* Main.storyboard */,
@@ -123,6 +140,21 @@
 				10DA45842138431A00B7A3E4 /* Info.plist */,
 			);
 			path = SwiftExtensionsUITests;
+			sourceTree = "<group>";
+		};
+		10DA45902138432D00B7A3E4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10DA45912138438D00B7A3E4 /* DateExtensions.swift */,
+				10DA4593213843A200B7A3E4 /* StringExtensions.swift */,
+				10DA4595213843B100B7A3E4 /* UIButtonExtensions.swift */,
+				10DA4597213843DB00B7A3E4 /* UIColorExtensions.swift */,
+				10DA4598213843DB00B7A3E4 /* UIImageExtensions.swift */,
+				10DA459B213843F400B7A3E4 /* UIViewBorderExtension.swift */,
+				10DA459D2138440800B7A3E4 /* UIViewControllerExtensions.swift */,
+				10DA459F2138441B00B7A3E4 /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +288,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DA4596213843B100B7A3E4 /* UIButtonExtensions.swift in Sources */,
+				10DA4594213843A200B7A3E4 /* StringExtensions.swift in Sources */,
+				10DA459C213843F400B7A3E4 /* UIViewBorderExtension.swift in Sources */,
+				10DA459A213843DC00B7A3E4 /* UIImageExtensions.swift in Sources */,
+				10DA459E2138440800B7A3E4 /* UIViewControllerExtensions.swift in Sources */,
 				10DA45652138431800B7A3E4 /* ViewController.swift in Sources */,
+				10DA45A02138441B00B7A3E4 /* UIViewExtensions.swift in Sources */,
+				10DA4599213843DC00B7A3E4 /* UIColorExtensions.swift in Sources */,
 				10DA45632138431800B7A3E4 /* AppDelegate.swift in Sources */,
+				10DA45922138438D00B7A3E4 /* DateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
